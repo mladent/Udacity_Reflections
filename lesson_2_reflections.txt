@@ -2,6 +2,12 @@
 A new hidden Git folder is created. 
 It contains metadata used by git for version control.
 
-- How is the staging area different from the working directory and the repository? What value do you think it offers?
+- How is the staging area different from the working directory and the 
+   repository? What value do you think it offers?
 It can be used to bundle selected files from the directory for commits. 
 It is easy to exclude some files from the commit or add them in succesion
+
+- How can you use the staging area to make sure you have one commit per 
+   logical change?
+In staging area it is possible to select only some of the files from the 
+ working directory and then commit them as part of logical whole
