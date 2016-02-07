@@ -5,9 +5,28 @@ It contains metadata used by git for version control.
 - How is the staging area different from the working directory and the 
    repository? What value do you think it offers?
 It can be used to bundle selected files from the directory for commits. 
-It is easy to exclude some files from the commit or add them in succesion
+It is easy to exclude some files from the commit or add them in succession
 
 - How can you use the staging area to make sure you have one commit per 
    logical change?
 In staging area it is possible to select only some of the files from the 
  working directory and then commit them as part of logical whole
+
+- What are some situations when branches would be helpful in keeping your
+ history organized? How would branches help?
+When developing different and specialised versions of the code. Experimenting
+with new ideas. Testing new configurations or even platform compatibility.
+The branches are a natural way to organise them and to view them.
+
+- How do the diagrams help you visualize the branch structure?
+Absolutely necessary to navigate any more complex development project.
+
+- What is the result of merging two branches together? Why do we represent it
+ in the diagram the way we do?
+The result is an integrated version containing both developments in master and 
+new functions developed in branches. It is better to use a diagram to follow
+the main / branch differences. Easier to understand
+
+- What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+In most cases it is ok to automatically merge. Only in special cases part of the code can
+ be checked manually
