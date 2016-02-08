@@ -15,7 +15,9 @@ automatically stay up-to-date with your remote repository?
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+   Forks are the same as cloning only taking place on the cloud. 
+   Cloning is taking place from the cloud to my local computer.
+   While Branching is taking place on my local repository/working space.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
